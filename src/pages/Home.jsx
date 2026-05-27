@@ -37,7 +37,7 @@ function Home() {
 
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Optio, necessitatibus consectetur tempore perferendis
+                Optio, necessitatibus consectetur tempore perferend!is
                 nostrum ex delectus reiciendis impedit aut iure enim
                 placeat? Natus, neque at?
               </p>
