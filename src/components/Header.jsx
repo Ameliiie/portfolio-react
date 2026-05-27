@@ -1,16 +1,37 @@
 import { Link } from "react-router-dom";
+import "../styles/Header.css";
+
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <h1>Portfolio</h1>
+    <header className="header">
+      <nav className="navbar">
 
-        <Link to="/">Home</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/mentions-legales">Mentions légales</Link> 
+        <h1 className="logo">JOHN DOE</h1>
+
+        <ul className="nav-links">
+
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+
+          <li>
+            <Link to="/services">SERVICES</Link>
+          </li>
+
+          <li>
+            <Link to="/portfolio">PORTFOLIO</Link>
+          </li>
+
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
+
+          <li>
+            <Link to="/mentions-legales"> MENTIONS LEGALES</Link>
+          </li>
+
+        </ul>
       </nav>
     </header>
   );
