@@ -1,0 +1,35 @@
+.portfolio-section {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 60px;
+}
+
+.portfolio-subtitle {
+  display: inline-block;
+  border-bottom: 3px solid #0d6efd;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.portfolio-card {
+  height: 100%;
+}
+
+/*Gestion Hover */ 
+
+.portfolio-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #4d94ff;
+  border-color: #4d94ff;
+}
