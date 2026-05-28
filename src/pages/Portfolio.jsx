@@ -6,6 +6,7 @@ import portfolioBienEtre from "../assets/portfolio/espace-bien-etre.jpg"
 import portfolioSeo from "../assets/portfolio/seo.jpg"
 import portfolioApi from "../assets/portfolio/screens.jpg"
 import portfolioMaquette from "../assets/portfolio/coder.jpg"
+
 function Portfolio() {
   return (
 
