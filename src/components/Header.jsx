@@ -1,34 +1,42 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
 
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className="header">
       <nav className="navbar">
 
         <h1 className="logo">JOHN DOE</h1>
 
-        <ul className="nav-links">
+        <button
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </button>
+
+        <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
 
           <li>
-            <Link to="/">HOME</Link>
+            <NavLink to="/">HOME</NavLink>
           </li>
 
           <li>
-            <Link to="/services">SERVICES</Link>
+            <NavLink to="/services">SERVICES</NavLink>
           </li>
 
           <li>
-            <Link to="/portfolio">PORTFOLIO</Link>
+            <NavLink to="/portfolio">PORTFOLIO</NavLink>
           </li>
 
           <li>
-            <Link to="/contact">CONTACT</Link>
+            <NavLink to="/contact">CONTACT</NavLink>
           </li>
 
           <li>
-            <Link to="/mentions-legales"> MENTIONS LEGALES</Link>
+            <NavLink to="/mentions-legales"> MENTIONS LEGALES</NavLink>
           </li>
 
         </ul>
