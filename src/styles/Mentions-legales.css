@@ -1,0 +1,63 @@
+.mentions-section {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+.mentions-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mentions-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.mentions-line {
+  width: 250px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0 auto 40px auto;
+}
+
+/* Accordéon */
+.accordion {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  font-weight: 600;
+}
+
+.accordion-body {
+  text-align: left;
+}
+
+.accordion-body h3 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.accordion-body p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.accordion-body a {
+  text-decoration: none;
+}
+
+.accordion-body a:hover {
+  text-decoration: underline;
+}
