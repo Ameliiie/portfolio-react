@@ -74,5 +74,18 @@
   margin-top: 15px;
 }
 
+/* Modale */ 
 
+.github-avatar {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+ .modal-content {
+  --bs-modal-bg: #212529;
+  --bs-modal-color: white;
+}
 
