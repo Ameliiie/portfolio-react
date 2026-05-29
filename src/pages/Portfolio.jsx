@@ -29,8 +29,7 @@ function Portfolio() {
             <div className="col-md-4 d-flex">
               <div className="card portfolio-card">
 
-                <img
-                  src={portfolioFresh} alt="Fresh Food" className="card-img-top"/>
+                <img src={portfolioFresh} alt="Fresh Food" className="card-img-top"/>
 
                 <div className="card-body">
 

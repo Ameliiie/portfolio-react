@@ -35,6 +35,17 @@
   margin-bottom: 20px;
 }
 
-row {
+.row {
   align-items: stretch;
+}
+
+.service-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 992px) {
+  .service-card h2 {
+    font-size: 1.5rem;
+  }
 }

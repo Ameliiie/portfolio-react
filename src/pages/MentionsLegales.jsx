@@ -1,7 +1,13 @@
 import "../styles/Mentions-legales.css"
+import { Helmet } from "react-helmet";
 
 function MentionsLegales() {
   return (
+  <>
+    <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
+    </Helmet>
+
     <section className="mentions-section">
       <h1>Mentions légales</h1>
       <div className="mentions-line"></div>
@@ -99,6 +105,7 @@ function MentionsLegales() {
       </div>
 
     </section>
+    </>
   );
 }
 

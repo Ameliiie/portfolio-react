@@ -62,7 +62,7 @@ function Home() {
                     <img
                       src={githubUser.avatar_url}
                       alt={githubUser.name}
-                      className="img-fluid rounded  github-avatar"/>
+                      className="img-fluid rounded  github-avatar" />
 
                   </div>
                   <div className="col-md-6">
@@ -128,7 +128,6 @@ function Home() {
               </p>
 
             </div>
-
             <div className="col-md-6">
 
               <h2>Mes Compétences</h2>
@@ -138,49 +137,39 @@ function Home() {
                 <li>HTML5 90%</li>
                 <div className="progress">
                   <div
-                    className="progress-bar bg-danger"
-                    style={{ width: "90%" }} ></div>
+                    className="progress-bar bg-danger" style={{ width: "90%" }} ></div>
 
                 </div>
 
                 <li>CSS3 80%</li>
                 <div className="progress">
                   <div
-                    className="progress-bar bg-info"
-                    style={{ width: "80%" }}></div>
+                    className="progress-bar bg-info"  style={{ width: "80%" }}></div>
                 </div>
 
                 <li>JavaScript 70%</li>
                 <div className="progress">
                   <div
-                    className="progress-bar bg-warning"
-                    style={{ width: "70%" }}></div>
+                    className="progress-bar bg-warning" style={{ width: "70%" }}></div>
                 </div>
 
                 <li>PHP 60%</li>
                 <div className="progress">
                   <div
-                    className="progress-bar bg-success"
-                    style={{ width: "60%" }}></div>
+                    className="progress-bar bg-success" style={{ width: "60%" }}></div>
                 </div>
 
                 <li>React 50%</li>
                 <div className="progress">
                   <div
-                    className="progress-bar bg-primary"
-                    style={{ width: "50%" }}></div>
+                    className="progress-bar bg-primary" style={{ width: "50%" }}></div>
+
                 </div>
-
               </ul>
-
             </div>
-
           </div>
-
         </div >
-
       </section >
-
     </>
   );
 }
